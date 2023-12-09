@@ -1,0 +1,42 @@
+@import "./variables";
+@import "./common";
+@import "./header";
+@import "./navbar";
+@import "./aside";
+@import "./content";
+@import "./footer";
+@import "./main";
+
+
+@media screen and (max-width: 576px) {
+
+    .main2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    body {
+        .navbar {
+            flex-direction: column;
+            background-color: rgb(212, 0, 255);
+        }
+
+        .row {
+            aside {
+                flex-direction: column;
+                background-color: darkmagenta;
+            }
+
+        }
+        .main {
+            background-color: rgb(113, 32, 218);
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    }
+    main {
+        background-color: rgb(109, 92, 205);
+    }
+
+}

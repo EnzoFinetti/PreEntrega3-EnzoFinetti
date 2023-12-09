@@ -1,0 +1,138 @@
+main {
+    background-color: rgba(8, 27, 53, 0.8);
+    padding: 20px;
+    width: 100%;
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        margin-top: 40px;
+
+        animation: rotate 1s ease-in infinite, to-violet 2s ease infinite;
+    }
+
+    article {
+        color: $color-dorado ;
+
+        h1 {
+            margin-bottom: 20px;
+            font-weight: normal;
+            font-size: 32px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Noto Sans', sans-serif;
+            text-decoration: underline;
+        }
+
+        h2 {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 19x;
+            line-height: 27px;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Noto Sans', sans-serif;
+
+        }
+
+        li {
+
+            margin-bottom: 20px;
+            font-size: 19x;
+            line-height: 27px;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Noto Sans', sans-serif;
+
+        }
+    }
+
+    section {
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            color: aqua;
+            font-size: 3rem;
+        }
+
+
+    }
+
+    article .thumb {
+        margin-bottom: 20px;
+    }
+
+    article .thumb img {
+        width: 100%;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        font-weight: normal;
+        font-size: 32px;
+        text-align: center;
+        text-decoration: none;
+        color: $primary-color-dark ;
+    }
+    .box {
+        width: 500px;
+        background: rgba(0, 0, 0, .4);
+        padding: 20px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 4%;
+        color: white;
+        font-family: 'Century Gothic', sans-serif;
+        border-radius: 15px;
+        /* box-shadow: 7px 13px 37px black; */
+      }
+      
+      .box-img {
+        border-radius: 50%;
+      }
+      
+      .box h1 {
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        margin: 30px 0 20px;
+      }
+      
+      .box h2 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 100;
+        margin-bottom: 30px
+      }
+      
+
+}
+
+@keyframes to-violet {
+    0% {
+        background: aqua;
+    }
+
+    50% {
+        background: violet;
+    }
+
+    100% {
+        background: aqua;
+    }
+
+
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+}

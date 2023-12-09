@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 131, 131);
+
+    a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    a &hover {
+        background-color: $primary-color-dark;
+    }
+}
